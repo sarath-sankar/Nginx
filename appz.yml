@@ -11,7 +11,7 @@ build:
     image_template: nginx-1.26
         
 deploy:
-    context: adhilcc/DEV
+    context: adhilcc/
     replicas: 1
     port:
     - 8080
