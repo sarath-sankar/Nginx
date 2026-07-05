@@ -5,7 +5,7 @@ app:
         
 build:
     version: 1.26
-    env: DEV
+    env: DEV2
     build_file: none
     output_files: output/*.zip
     image_template: nginx-1.26
@@ -17,4 +17,4 @@ deploy:
     - 8080
     - 80
 properties:
-    revision : 2
+    revision : 3
