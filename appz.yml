@@ -1,7 +1,7 @@
 app:
     name: mbk-nginx
     code: MBK-NGINX
-    notify: rniranjan@ecloudcontrol.com
+    notify: ssankar@ecloudcontrol.com
         
 build:
     version: 1.26
@@ -11,10 +11,10 @@ build:
     image_template: nginx-1.26
         
 deploy:
-    context: adhilcc/DEV
+    context: alpha/DEV2
     replicas: 1
     port:
     - 8080
     - 80
 properties:
-    revision : 21
+    revision : 1
