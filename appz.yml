@@ -1,6 +1,6 @@
 app:
-    name: mbk-nginx
-    code: MBK-NGINX
+    name: appz-nginx
+    code: APPZ-NGINX
     notify: ssankar@ecloudcontrol.com
         
 build:
@@ -17,4 +17,4 @@ deploy:
     - 8080
     - 80
 properties:
-    revision : 3
+    revision : 1
