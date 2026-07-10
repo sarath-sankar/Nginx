@@ -12,9 +12,9 @@ build:
         
 deploy:
     context: alpha/DEV2
-    replicas: 2
+    replicas: 1
     port:
     - 8080
     - 80
 properties:
-    revision : 4
+    revision : 1
