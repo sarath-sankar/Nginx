@@ -5,13 +5,13 @@ app:
         
 build:
     version: 1.26
-    env: DEV2
+    env: DEV
     build_file: none
     output_files: output/*.zip
     image_template: nginx-1.26
         
 deploy:
-    context: alpha/DEV2
+    context: alpha/DEV
     replicas: 1
     port:
     - 8080
